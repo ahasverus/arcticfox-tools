@@ -20,11 +20,11 @@ drv <- dbDriver("PostgreSQL")
 
 mydb <- dbConnect(
   drv      = drv,
-  user     = "postgres",
-  password = "12345",
-  host     = "localhost",
+  host     = "Veuillez ecrire ici l'hote du serveur",
   port     = 5432,
-  dbname   = "berteaux_renards_bylot"
+  user     = "Veuillez ecrire ici le nom d'utilisateur",
+  password = "Veuillez ecrire ici le mot de passe",
+  dbname   = "Veuillez ecrire ici le nom de la base de données"
 )
 
 
