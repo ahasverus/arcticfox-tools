@@ -4,6 +4,9 @@
 
 
 
+### Installation (si necessaire) et chargement du package requis ---------------
+
+# install.packages("RPostgreSQL")
 library(RPostgreSQL)
 
 
