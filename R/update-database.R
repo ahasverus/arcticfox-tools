@@ -15,20 +15,13 @@ library(RPostgreSQL)
 
 drv  <- dbDriver("PostgreSQL")
 
-# mydb <- dbConnect(
-#   drv      = drv,
-#   host     = "Veuillez ecrire ici l'hote du serveur",
-#   port     = 5432,
-#   user     = "Veuillez ecrire ici le nom d'utilisateur",
-#   password = "Veuillez ecrire ici le mot de passe",
-#   dbname   = "Veuillez ecrire ici le nom de la base de données"
-# )
-
 mydb <- dbConnect(
   drv      = drv,
-  user     = "nicolascasajus",
-  password = "Somogo17",
-  dbname   = "berteaux_renards_bylot"
+  host     = "Veuillez ecrire ici l'hote du serveur",
+  port     = 5432,
+  user     = "Veuillez ecrire ici le nom d'utilisateur",
+  password = "Veuillez ecrire ici le mot de passe",
+  dbname   = "Veuillez ecrire ici le nom de la base de données"
 )
 
 
